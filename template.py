@@ -11,8 +11,8 @@ list_of_files = [
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
-    f"src/{project_name}/utils/common/__init__.py"
-    f"src/{project_name}/logging//__init__.py",
+    f"src/{project_name}/utils/common/__init__.py",
+    f"src/{project_name}/logging/__init__.py",
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration/__init__.py",
     f"src/{project_name}/pipeline/__init__.py",
@@ -39,5 +39,5 @@ for file_path in list_of_files:
         with open(file_path,'w') as f:
             pass
             logging.info(f"Creating empty file : {file_path}")    
-    else:
+    else:   
         logging.info(f"{file_path} already exists")
