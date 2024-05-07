@@ -11,7 +11,7 @@ list_of_files = [
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
-    f"src/{project_name}/utils/common/__init__.py",
+    f"src/{project_name}/utils/common.py",
     f"src/{project_name}/logging/__init__.py",
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration/__init__.py",
@@ -25,7 +25,7 @@ list_of_files = [
     "Dockerfile",
     "requirements.txt",
     "setup.py",
-    "resource/trails.ipynb"
+    "research/trails.ipynb"
 ]
 
 for file_path in list_of_files:
